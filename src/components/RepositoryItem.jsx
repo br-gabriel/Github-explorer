@@ -1,4 +1,4 @@
-export function RepositoryList() {
+export function RepositoryItem() {
     return (
         <li>
             <strong>Unform</strong>
