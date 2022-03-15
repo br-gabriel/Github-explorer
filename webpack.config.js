@@ -28,7 +28,12 @@ module.exports = {
 				test: /\.jsx$/, //$ serve para identificar o término de algo
 				exclude: /node_modules/,
 				use: 'babel-loader',
-			}
+			},
+			{
+				test: /\.css$/,
+				exclude: /node_modules/,
+				use: ['style-loader', 'css-loader'],
+			}		
 		]
 	}
 }
